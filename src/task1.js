@@ -30,6 +30,7 @@ const russianLowerCase = function () {
     for (let i = 1072; i < 1104; i++) {
         string += String.fromCharCode(i);
     }
-
+    console.log(string);
+    
     return string;
 }
